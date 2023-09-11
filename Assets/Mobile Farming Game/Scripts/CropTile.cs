@@ -28,8 +28,18 @@ public class CropTile : MonoBehaviour
         Crop crop = Instantiate(cropData.CropPrefab, transform.position, Quaternion.identity, _cropParent);
     }
 
+    public void Water() 
+    {
+        _state = TileFieldState.Watered;       
+    }
+
     public bool IsEmpty() 
     {
         return _state == TileFieldState.Empty;
+    }
+
+    public bool IsSown() 
+    {
+        return _state == TileFieldState.Sown;
     }
 }

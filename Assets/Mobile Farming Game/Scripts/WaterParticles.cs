@@ -1,13 +1,12 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 [RequireComponent(typeof(ParticleSystem))]
-public class SeedsParticles : MonoBehaviour
+public class WaterParticles : MonoBehaviour
 {
-    public static Action<Vector3[]> onSeedsCollided;
+    public static Action<Vector3[]> onWaterCollided;
 
     private void OnParticleCollision(GameObject other)
     {
@@ -21,6 +20,6 @@ public class SeedsParticles : MonoBehaviour
         for (int i = 0; i < collisionAmount; i++)
             collisionPosition[i] = collisionEvents[i].intersection;
 
-        onSeedsCollided?.Invoke(collisionPosition);
+        onWaterCollided?.Invoke(collisionPosition);
     }
 }
