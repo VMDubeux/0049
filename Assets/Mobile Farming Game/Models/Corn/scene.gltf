@@ -1,0 +1,394 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2029,
+      "max": [
+        10.655570983886719,
+        11.136487007141113,
+        4.473674774169922
+      ],
+      "min": [
+        -11.730097770690918,
+        -8.04345703125,
+        -41.532630920410156
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24348,
+      "componentType": 5126,
+      "count": 2029,
+      "max": [
+        0.9976066946983337,
+        1.0,
+        0.9962291717529297
+      ],
+      "min": [
+        -0.9968279004096985,
+        -0.994667649269104,
+        -0.990868330001831
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2029,
+      "max": [
+        0.5003870129585266,
+        0.9281949996948242
+      ],
+      "min": [
+        0.062497999519109726,
+        0.058719001710414886
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 7188,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 48696,
+      "componentType": 5126,
+      "count": 146,
+      "max": [
+        3.683738946914673,
+        0.2560949921607971,
+        -1.8365540504455566
+      ],
+      "min": [
+        -1.6435259580612183,
+        -11.871248245239258,
+        -31.080829620361328
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 50448,
+      "componentType": 5126,
+      "count": 146,
+      "max": [
+        0.9527933597564697,
+        0.8330304622650146,
+        0.9927104711532593
+      ],
+      "min": [
+        -0.9898576140403748,
+        -0.9799456596374512,
+        -0.9875993728637695
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 16232,
+      "componentType": 5126,
+      "count": 146,
+      "max": [
+        0.1911740005016327,
+        0.9113199710845947
+      ],
+      "min": [
+        0.062497999519109726,
+        0.058719001710414886
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 28752,
+      "componentType": 5125,
+      "count": 522,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        0.0416666679084301
+      ],
+      "min": [
+        0.0416666679084301
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        -0.27267909049987793,
+        0.6607204675674438,
+        0.6418024897575378,
+        0.2778203785419464
+      ],
+      "min": [
+        -0.27267909049987793,
+        0.6607204675674438,
+        0.6418024897575378,
+        0.2778203785419464
+      ],
+      "type": "VEC4"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 4,
+            "path": "rotation"
+          }
+        }
+      ],
+      "name": "Default Take",
+      "samplers": [
+        {
+          "input": 8,
+          "interpolation": "LINEAR",
+          "output": 9
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Tiia Tuulia (https://sketchfab.com/tiiatuulia)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/corn-corn-corn-10187bc37c9e42ef8770b28452ee7cd3",
+      "title": "Corn! Corn! Corn!"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 30840,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 17400,
+      "byteOffset": 30840,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 52200,
+      "byteOffset": 48240,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4,
+      "byteOffset": 100440,
+      "name": "floatBufferViews"
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16,
+      "byteOffset": 100444,
+      "byteStride": 16,
+      "name": "floatBufferViews"
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 100460,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/corn_plant__corn_texture_png_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "corn_plant__corn_texture_png",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6541539634146342
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "corn_plant_001__corn_texture_png_001",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Circle_020_corn_plant__corn_texture_png_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Circle_020_corn_plant_001__corn_texture_png_001_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.6242683529853821,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.3861541980583915e-16,
+        -0.6242683529853821,
+        0.0,
+        0.0,
+        0.6242683529853821,
+        1.3861541980583915e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "fdd38405c86b44e49e5f7a62b0d2f0f7.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "Object_2"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5,
+        6
+      ],
+      "name": "Circle_020",
+      "rotation": [
+        -0.27267906069755554,
+        0.6607205271720886,
+        0.6418024301528931,
+        0.277820348739624
+      ],
+      "scale": [
+        0.08378752321004868,
+        0.08378753066062927,
+        0.08378753066062927
+      ],
+      "translation": [
+        0.03753768280148506,
+        3.4483883380889893,
+        0.0886821448802948
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "Circle_020_corn_plant__corn_texture_png_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Circle_020_corn_plant_001__corn_texture_png_001_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
